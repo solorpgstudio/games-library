@@ -1,0 +1,53 @@
+filters:
+  and:
+    - file.folder == "Notes"
+    - category == "games"
+views:
+  - type: table
+    name: All Games
+    order:
+      - title
+      - genre
+      - min. players
+      - max. players
+      - rating (0-5)
+      - duration (min)
+      - complexity
+      - difficulty
+      - read/played
+      - sub category
+    columnSize:
+      note.title: 313
+  - type: cards
+    name: All RPG
+    filters:
+      and:
+        - note["sub category"] == ["rpg"]
+    order:
+      - title
+    sort:
+      - property: universe
+        direction: ASC
+    image: note.cover_image
+    imageAspectRatio: 1.4
+    columnSize:
+      note.title: 389
+    cardSize: 160
+  - type: cards
+    name: All Board Games
+    filters:
+      and:
+        - note["sub category"] == ["board game"]
+    order:
+      - title
+      - genre
+      - rating (0-5)
+    image: note.cover_image
+    cardSize: 200
+    imageAspectRatio: 1
+  - type: cards
+    name: All Video Game
+    filters:
+      and:
+        - note["sub category"] == ["video game"]
+    image: note.cover_image
