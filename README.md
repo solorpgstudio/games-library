@@ -17,6 +17,7 @@ Here is a small Obsidian Vault Template to store and visualize your game collect
 - Download this repository content 
 ![CleanShot 2025-09-06 at 08 59 02@2x](https://github.com/user-attachments/assets/117473ad-cfff-4150-b075-442949d64bf6)
 - Create a new vault and place the downloaded content inside of it (you might need to restart Obsidian for the plugin to take effect)
+- You can remove the `.gitignore` and `.gitkeep` files; those are useful for GitHub but not necessary in your vault
 
 ## Usage
 
