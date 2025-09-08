@@ -26,6 +26,7 @@ Here is a small Obsidian Vault Template to store and visualize your game collect
 - Fill all the necessary properties
 - use to double square bracket in the `cover_image` for easy image selection `[[image_file_name.jpg]]`
 - Add a new field to your template and customize your vault to your liking
+- Image for the cover should be place in the `attachments` folder. If you want to store them outisde the vault, you'll need to adjust the configuation.
 
 ## Resources
 - [Introduction to Obsidian Bases](https://help.obsidian.md/bases)
